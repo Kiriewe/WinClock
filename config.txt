@@ -1,0 +1,53 @@
+# Настройки ASCII-часов / ASCII Clock Configuration
+#
+# 1. Цвет / Color: green, red, blue, cyan, magenta, yellow, white, orange, purple, pink
+#    Или любой HEX-код цвета (например, #00E5FF) / Or any HEX color (e.g. #00E5FF)
+color = cyan
+#
+# 2. Часовой пояс / Timezone: разница в часах с UTC (например: +3 для Москвы, -5 для Нью-Йорка)
+#    Examples: +3, -5, 0, +5.5
+timezone = +3
+#
+# 3. Стиль дизайна / Design mode:
+#    - custom  : Ретро дашборд с календарем и прогресс-баром / Retro dashboard with calendar and progress bar
+#    - peaclock: Крупные блочные цифры в рамке / Classic bold block numbers in a frame
+design = peaclock
+#
+# 4. Размер часов / Clock size:
+#    - auto : автоматический адаптивный размер / auto responsive scaling
+#    - число (1, 2, 3 и т.д.): фиксированный размер блоков / integer for static block size
+size = auto
+#
+# 5. Показывать секунды / Show seconds: true, false
+seconds = true
+#
+# 6. Формат времени / Time format: 24h, 12h
+format = 24h
+#
+# 7. Мигающее двоеточие / Flashing colon: true, false
+flash_colon = true
+#
+# 8. Символ заливки / Block fill character:
+#    - block : сплошные цветные блоки (рекомендуется) / solid colored blocks
+#    - любой другой символ (например: #, *, @, ░, ▒) / any text character for retro styling
+fill_char = block
+#
+# 9. Показывать дату / Show calendar date (только для режима custom): true, false
+show_date = true
+#
+# 10. Показывать шкалу секунд / Show seconds progress bar (только для режима custom): true, false
+show_progress = true
+#
+# 11. Формат даты / Custom date format string (strftime format, e.g. %A, %d %B %Y)
+date_format = %A, %d %B %Y
+#
+# 12. Внешний вид цифр (только для режима custom) / Clock digit style (custom mode only):
+#     1 - blocks     : Сплошные блоки / Solid blocks (█)
+#     2 - hash       : Символы решетки / Hash symbols (#)
+#     3 - stars      : Символы звездочек / Star symbols (*)
+#     4 - lcd_single : Одинарные сегментные линии / Single-line LCD segments
+#     5 - lcd_double : Двойные сегментные линии / Double-line LCD segments
+#     6 - dots       : Круглые точки / Circular dots (●)
+#     7 - shaded     : Затененные текстурные блоки / Shaded blocks (▒)
+#     8 - matrix     : Матрица ламп (O - включена, . - выключена) / Bulb matrix (O/.)
+custom_style = 6
